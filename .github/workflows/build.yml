@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 jobs:
-  # The LKM selection rules are pure logic, and they live in a header precisely so
+  ## The LKM selection rules are pure logic, and they live in a header precisely so
   # they can be run here: exp.c itself only compiles against the NDK, so without
   # this split the table and its matching rules would ship untested.
   ko-select-tests:
